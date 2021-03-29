@@ -17,7 +17,8 @@ Gem::Specification.new do |gem|
   gem.license = "Apache-2.0"
 
   gem.add_dependency "fluentd", [">= 1.0", "< 2"]
-  gem.add_dependency 'activerecord', [">= 5.1", "< 6.1"]
+  gem.add_dependency 'activerecord', '~> 6.1'
+  gem.add_dependency 'activerecord-import', '~> 1.0'
   gem.add_development_dependency "rake", ">= 0.9.2"
   gem.add_development_dependency "test-unit", "> 3.1.0"
   gem.add_development_dependency "test-unit-rr"
